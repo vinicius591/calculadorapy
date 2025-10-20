@@ -1,23 +1,23 @@
-# def soma():
-#     n1 = float(input("Digite o primeiro número: "))
-#     n2 = float(input("Digite o segundo número: "))
-#     result = n1 + n2
-#     return result
-# print(soma()) 
+def soma():
+    n1 = float(input("Digite o primeiro número: "))
+    n2 = float(input("Digite o segundo número: "))
+    result = n1 + n2
+    return result
 
-# def subtracao():
-#     num1 = float(input("Digite o primeiro número: "))
-#     num2 = float(input("Digite o segundo número: "))
-#     resulta = num1 - num2
-#     return resulta
-# print(subtracao()) 
 
-# def multiplicacao():
-#     num1 = float(input("Digite o primeiro número: "))
-#     num2 = float(input("Digite o segundo número: "))
-#     resulta = num1 * num2
-#     return resulta
-# print(multiplicacao()) 
+def subtracao():
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    resulta = num1 - num2
+    return resulta
+ 
+
+def multiplicacao():
+    num1 = float(input("Digite o primeiro número: "))
+    num2 = float(input("Digite o segundo número: "))
+    resulta = num1 * num2
+    return resulta
+
 
 def divisao():
     num1 = float(input("Digite o primeiro número: "))
@@ -27,4 +27,3 @@ def divisao():
     else:
         resulta = num1 / num2
     return resulta
-print(divisao()) 
